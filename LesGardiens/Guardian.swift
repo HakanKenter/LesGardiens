@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Gardian {
+    var name: String
+    var desc: String
+    var imagePath: String
+}

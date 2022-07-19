@@ -13,7 +13,10 @@
 		55C508582886B6D1004AB1D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C508562886B6D1004AB1D1 /* Main.storyboard */; };
 		55C5085A2886B6D3004AB1D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C508592886B6D3004AB1D1 /* Assets.xcassets */; };
 		55C5085D2886B6D3004AB1D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C5085B2886B6D3004AB1D1 /* LaunchScreen.storyboard */; };
-		55C508652886B717004AB1D1 /* Guardian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C508642886B717004AB1D1 /* Guardian.swift */; };
+		55C508672886B760004AB1D1 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C508662886B760004AB1D1 /* Datas.swift */; };
+		55C508692886D16F004AB1D1 /* GardianCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C508682886D16F004AB1D1 /* GardianCell.swift */; };
+		55C5086D2886D2A7004AB1D1 /* Guardian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5086C2886D2A7004AB1D1 /* Guardian.swift */; };
+		55C5086F2886DB21004AB1D1 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5086E2886DB21004AB1D1 /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +28,10 @@
 		55C508592886B6D3004AB1D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55C5085C2886B6D3004AB1D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55C5085E2886B6D3004AB1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55C508642886B717004AB1D1 /* Guardian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guardian.swift; sourceTree = "<group>"; };
+		55C508662886B760004AB1D1 /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
+		55C508682886D16F004AB1D1 /* GardianCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardianCell.swift; sourceTree = "<group>"; };
+		55C5086C2886D2A7004AB1D1 /* Guardian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guardian.swift; sourceTree = "<group>"; };
+		55C5086E2886DB21004AB1D1 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +71,10 @@
 				55C508592886B6D3004AB1D1 /* Assets.xcassets */,
 				55C5085B2886B6D3004AB1D1 /* LaunchScreen.storyboard */,
 				55C5085E2886B6D3004AB1D1 /* Info.plist */,
-				55C508642886B717004AB1D1 /* Guardian.swift */,
+				55C508662886B760004AB1D1 /* Datas.swift */,
+				55C508682886D16F004AB1D1 /* GardianCell.swift */,
+				55C5086C2886D2A7004AB1D1 /* Guardian.swift */,
+				55C5086E2886DB21004AB1D1 /* DetailController.swift */,
 			);
 			path = LesGardiens;
 			sourceTree = "<group>";
@@ -141,8 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55C508652886B717004AB1D1 /* Guardian.swift in Sources */,
+				55C508692886D16F004AB1D1 /* GardianCell.swift in Sources */,
+				55C5086F2886DB21004AB1D1 /* DetailController.swift in Sources */,
 				55C508552886B6D1004AB1D1 /* ViewController.swift in Sources */,
+				55C5086D2886D2A7004AB1D1 /* Guardian.swift in Sources */,
+				55C508672886B760004AB1D1 /* Datas.swift in Sources */,
 				55C508512886B6D1004AB1D1 /* AppDelegate.swift in Sources */,
 				55C508532886B6D1004AB1D1 /* SceneDelegate.swift in Sources */,
 			);
